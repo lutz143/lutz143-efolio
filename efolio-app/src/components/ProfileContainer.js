@@ -2,6 +2,7 @@ import React from 'react';
 import Header from './Header';
 import Banner from './Banner';
 import MainContainer from './Main';
+import Footer from './Footer';
 // import { useState, useEffect } from 'react';
 
 const ProfileContainer = () => {
@@ -9,7 +10,12 @@ const ProfileContainer = () => {
   // const [search, setSearch] = useState('');
 
   return (
-    <div><Header></Header><Banner></Banner><MainContainer></MainContainer></div>
+    <div>
+      <Header></Header>
+      <Banner></Banner>
+      <MainContainer></MainContainer>
+      <Footer></Footer>
+    </div>
   );
 };
 
