@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from './Header';
 import Banner from './Banner';
+import About from './AboutMe';
 // import { useState, useEffect } from 'react';
 
 const ProfileContainer = () => {
@@ -8,7 +9,7 @@ const ProfileContainer = () => {
   // const [search, setSearch] = useState('');
 
   return (
-    <div><Header></Header><Banner></Banner></div>
+    <div><Header></Header><Banner></Banner><About></About></div>
   );
 };
 
