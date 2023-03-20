@@ -143,7 +143,6 @@ nav a:hover{
 /* style the main page */
 .main-page{
   min-width: 100%;
-  /* margin: auto auto; */
   color: var(--dark-gray);
   position: relative;
 }
@@ -151,7 +150,6 @@ nav a:hover{
 /* style the main section where the user will find the styling of sections such as about me, work, and contact me */
 .main-section{
   font-size: 1.9rem;
-  margin: 25px 0;
   padding: 10px 0;
   display: flex;
   flex-direction: row;
@@ -252,6 +250,7 @@ footer {
   width: 100%;
   max-height: 8em;
   min-height: 5.5em;
+  margin-top: 25px;
   background-color: var(--dark-gray);
   border-top: solid var(--yellow);
   display: flex;
@@ -320,11 +319,6 @@ footer {
 /* Media query styling */
 /* ===================================================================================================================================== */
 @media screen and (max-width: 970px) {
-
-  /* #root {
-    min-width: 100%;
-  } */
-
   header {
     display: flex;
     position: relative;
@@ -374,10 +368,20 @@ footer {
     flex: 0 0 100%;
   }
 
+  .main-section {
+    margin-top: 0;
+    padding-left: 3px;
+  }
+
+  .top-banner {
+    height: 50%;
+  }
+
   .main-section > h2 {
     border-right: none;
     border-bottom: 4px solid var(--dark-gray);
-    margin-bottom: 20px;
+    margin-bottom: 15px;
+    margin-top: 0;
     padding-bottom: 10px;
     text-align: left;
     font-size: 7vw;
