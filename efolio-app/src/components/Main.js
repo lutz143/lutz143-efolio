@@ -7,7 +7,7 @@ const MainContainer = () => {
   // const [search, setSearch] = useState('');
 
   return (
-    <main className='main-page'><About></About></main>
+    <div className='main-section' id='about-me'><About></About></div>
   );
 };
 

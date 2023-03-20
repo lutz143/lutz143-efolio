@@ -10,12 +10,12 @@ const ProfileContainer = () => {
   // const [search, setSearch] = useState('');
 
   return (
-    <div>
+    <main className='main-page'>
       <Header></Header>
       <Banner></Banner>
       <MainContainer></MainContainer>
       <Footer></Footer>
-    </div>
+    </main>
   );
 };
 
