@@ -144,7 +144,7 @@ nav a:hover{
 .main-page{
   min-width: 100%;
   color: var(--dark-gray);
-  position: relative;
+  /* position: relative; */
 }
 
 /* style the main section where the user will find the styling of sections such as about me, work, and contact me */
@@ -245,7 +245,7 @@ nav a:hover{
 /* Footer styling */
 /* ===================================================================================================================================== */
 footer {
-  position: absolute;
+  position: relative;
   bottom: 0;
   width: 100%;
   max-height: 8em;
