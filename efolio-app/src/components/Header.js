@@ -13,7 +13,7 @@ function Header(props) {
           <a href="#about-me">About Me</a>
           <a href="#work">Work</a>
           <a href="#contact-me">Contact Me</a>      
-          <a href="./assets/docs/Josh Lutz 2023 Resume.pdf" download>Resume</a>
+          <a href="./assets/docs/Josh Lutz 2023 Resume.pdf" download>Resum&#233;</a>
         </nav>        
       </div>
   

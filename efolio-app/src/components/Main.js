@@ -9,7 +9,7 @@ const MainContainer = () => {
 
   return (
     // <div className='main-section'><About></About></div>
-    <div className='main-section'><Resume></Resume></div>
+    <div><Resume></Resume></div>
   );
 };
 
