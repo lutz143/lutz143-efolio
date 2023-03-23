@@ -6,6 +6,7 @@
   --white: rgb(255, 255, 255);
   --white-transparent: rgba(255, 255, 255, 0.7);
   --light-gray:rgba(238, 238, 247, 0.4);
+  --gray:rgba(157, 157, 161, 0.817);
   --blue-gray: rgba(68, 88, 119, 1);
   --dark-gray: rgba(49, 52, 61, 1);
   --black: rgba(28, 29, 33, 1);
@@ -146,7 +147,6 @@ nav a:hover{
   color: var(--dark-gray);
 }
 
-
 #about-me p {
   padding-right: 24px;
 }
@@ -210,7 +210,6 @@ nav a:hover{
   display: flex;
   align-items: flex-end;
   padding: 0 0 20px 0;
-  /* margin: 0.5em; */
   text-decoration: none;
   background-blend-mode: soft-light;
   background-color: var(--white-transparent);
@@ -248,25 +247,54 @@ nav a:hover{
 /* Resume styling */
 /* ===================================================================================================================================== */
 
+.resume-section-content {
+  padding-right: 24px;
+}
 
 .experience {
-  text-decoration: underline;
-  font-size: larger;
+  color: var(--dark-gray);  
+  font-weight: 800;
+  font-size: 32px;
+}
+
+.resume-card {
+  margin-bottom: 12px;
+  margin-left: 8px;
+}
+
+.resume-card:hover {
+  border-left: solid 2px var(--gray);
+  border-block-end-style: ridge;
+}
+
+.resume-title {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 8px;
+}
+
+#resume-date {
+  font-size: 13px;
+  padding-top: 4px;  
+}
+
+.employer h3 {
+  font-size: 22px;
+  margin: 0 0 10px 0;
 }
 
 .employer p {
   font-style: italic;
-  font-size: 12px;
+  font-size: 10px;
   margin: 0;
-  padding-left: 8px;
+  padding-left: 14px;
 }
 
 .employer ul {
   font-size: 16px;
   margin: 0;
-  padding-left: 18px;
+  padding-left: 28px;
 }
-
 
 
 /* Footer styling */
