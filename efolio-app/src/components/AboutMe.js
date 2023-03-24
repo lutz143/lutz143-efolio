@@ -20,10 +20,12 @@ function About(props) {
       <h2>About Me<br></br>
         <img className="about-me-img" src={ProfilePic} alt="User Image of the Portfolio"/>
       </h2>
-      <div>
-        <p>{p1}</p>
-        <p>{p2}</p>
-        <p>{p3}</p>
+      <div id="about-me-containter">
+        <div id="about-me-wrap">
+          <p>{p1}</p>
+          <p>{p2}</p>
+          <p>{p3}</p>
+        </div>
       </div>
     </div>
   )

@@ -151,6 +151,16 @@ nav a:hover{
   padding-right: 24px;
 }
 
+#about-me-containter {
+  position: relative;
+  min-height: 100%;
+}
+
+#about-me-wrap {
+  padding-bottom: 2.5rem;
+}
+
+
 /* style the main section where the user will find the styling of sections such as about me, work, and contact me */
 .main-section{
   font-size: 1.9rem;
