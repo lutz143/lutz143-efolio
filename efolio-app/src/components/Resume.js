@@ -13,7 +13,7 @@ function About(props) {
       </h2>
         <div class="resume-section" id="experience">
           <div class="resume-section-content">
-            <div class="experience">EXPERIENCE</div>
+            <div class="resume-header">EXPERIENCE</div>
             <div class="employer">
               <div>
                 <h3>Lockheed Martin
@@ -66,11 +66,60 @@ function About(props) {
                   <ul>
                     <li>Held positions of increasing rank by accurately forecasting, modeling, and reconciling receivables</li>
                     <li>Coded automated checkpoints to identify discrepancies between databases and source systems to relieve current resources</li>
-                  </ul>
-                  
+                  </ul>                  
                 </div>
               </div>
-            </div>                      
+            </div>
+          </div>
+          <div class="resume-section-content">
+            <div class="resume-header">EDUCATION</div>
+            <div class="employer">
+              <div class="resume-card">
+                <div class="resume-title">Ohio State Full Stack Developer Bootcamp<span id="resume-date">October 2022 - April 2023</span></div>
+                <ul>
+                  <li>Full Stack Development Certificate Presented by Trilogy</li>
+                </ul>
+              </div>
+              <div class="resume-card">
+                <div class="resume-title">Ohio University, Athens, OH<span id="resume-date">August 2018 - August 2020</span></div>
+                <ul>
+                  <li>Masters in Business Administration: Business Analytics, GPA: 4.0</li>
+                </ul>
+              </div>
+              <div class="resume-card">
+                <div class="resume-title">The Ohio State University, Fisher College of Business, Columbus, OH<span id="resume-date">September 2007 - August 2011</span></div>
+                <ul>
+                  <li>Dual Major in Bachelor of Science in Business Administration: Finance and International Business</li>
+                  <li>Delta Sigma Pi Professional Business Fraternity</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="resume-section-content">
+            <div class="resume-header">ADDITIONAL LEADERSHIP EXPERIENCE</div>
+            <div class="employer">
+              <div class="resume-card">
+                <div class="resume-title">Finance Leadership Development Program (FLDP)<span id="resume-date">January 2015 - December 2017</span></div>
+                <ul>
+                  <li>Created Full Spectrum Leadership Workshops that are utilized to teach and foster a leadership culture within the organization</li>
+                </ul>
+              </div>
+              <div class="resume-card">
+                <div class="resume-title">Quest4Leadership Training by The Partnership for Excellence<span id="resume-date">February 2014 - May 2014</span></div>
+                <ul>
+                  <li>Completed leadership coursework developed and taught by CEO and former Automobile Executive Margot Hoffman, PhD</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="resume-section-content">
+            <div class="resume-header">SKILLS, TECHNOLOGIES, & INTERESTS</div>
+                <ul>
+                  <li>Proficient in Full Stack Development including HTML, CSS, JavaScript, React, MERN, jQuery, MySQL, APIs, Node, OOP, MVC, and Express</li>
+                  <li>Experienced in Data Analytics and Data Management including Python, SQL, Tableau, Alteryx, R, and Microsoft Access</li>
+                  <li>Skilled in Excel, Excel’s Power Query, VBA, and Microsoft Office</li>
+                  <li>Involved in local food drive charity and volunteer initiative MENU (Mission: Engage. Nourish. Unite.)</li>
+                </ul>
           </div>
         </div>
     </div>

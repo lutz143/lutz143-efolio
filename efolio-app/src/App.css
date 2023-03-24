@@ -6,7 +6,7 @@
   --white: rgb(255, 255, 255);
   --white-transparent: rgba(255, 255, 255, 0.7);
   --light-gray:rgba(238, 238, 247, 0.4);
-  --gray:rgba(157, 157, 161, 0.817);
+  --gray:rgba(200, 200, 201, 0.703);
   --blue-gray: rgba(68, 88, 119, 1);
   --dark-gray: rgba(49, 52, 61, 1);
   --black: rgba(28, 29, 33, 1);
@@ -249,12 +249,18 @@ nav a:hover{
 
 .resume-section-content {
   padding-right: 24px;
+  padding-top: 12px;
+  border-bottom: solid 2px var(--yellow);
 }
 
-.experience {
+.resume-section-content:last-child {
+  border-bottom: none;
+}
+
+.resume-header {
   color: var(--dark-gray);  
   font-weight: 800;
-  font-size: 32px;
+  font-size: 30px;
 }
 
 .resume-card {
@@ -263,8 +269,9 @@ nav a:hover{
 }
 
 .resume-card:hover {
-  border-left: solid 2px var(--gray);
-  border-block-end-style: ridge;
+  transition: all 0.3s ease-in;
+  border-left: solid 1px  var(--yellow);
+  margin-left: 7px;
 }
 
 .resume-title {
