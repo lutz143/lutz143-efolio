@@ -247,6 +247,29 @@ nav a:hover{
 /* Resume styling */
 /* ===================================================================================================================================== */
 
+#download {
+  font-size: 20px;
+  display: flex;
+  flex: 0;
+  flex-direction: row;
+  justify-content: right;
+}
+
+#download-hyperlink {
+  text-decoration: none;
+  color: var(--dark-gray);
+}
+
+#download-text {
+  display: flex;
+  flex: 0;
+  padding-top: 9px;
+}
+
+.download-button {
+  width: 40px;
+}
+
 .resume-section-content {
   padding-right: 24px;
   padding-top: 12px;
@@ -381,6 +404,10 @@ footer {
 /* Media query styling */
 /* ===================================================================================================================================== */
 @media screen and (max-width: 970px) {
+  #download {
+    justify-content: start;  
+  }
+
   header {
     display: flex;
     position: relative;
@@ -459,8 +486,6 @@ footer {
 }
 
 @media screen and (max-width: 750px) {
-
-
   header nav{
     font-size: 65%;
   }

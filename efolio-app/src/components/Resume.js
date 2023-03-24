@@ -1,5 +1,7 @@
 import React from "react";
 import ProfilePic from './images/Josh Lutz_DC.jpg'
+import DownloadButton from './images/DownloadButton.png'
+import ResumeDownload from './docs/Josh Lutz 2023 Resume.pdf'
 
 const frontEnd = ['HTML', 'CSS', 'ETC.']
 const backEnd = ['MySQL', 'SQL', 'NoSQL']
@@ -10,6 +12,12 @@ function About(props) {
     <div className="main-section" id="resume">
       <h2>Resum&#233;<br></br>
         <img className="about-me-img" src={ProfilePic} alt="User Image of the Portfolio"/>
+        <a href={ResumeDownload} download id="download-hyperlink">
+          <div id="download">
+            <div id="download-text">Download</div>  
+              <img className="download-button" src={DownloadButton}/>          
+          </div>
+        </a>        
       </h2>
         <div class="resume-section" id="experience">
           <div class="resume-section-content">
