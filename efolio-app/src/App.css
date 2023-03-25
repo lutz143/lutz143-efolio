@@ -248,13 +248,13 @@ nav a:hover{
   background-color: var(--yellow);
   padding: 8px 10px;  
   display: flex;
-  flex: auto 0;
+  flex: 1 auto;
   flex-direction: column;
 }
 
 /* style the main header in the div container found inside the respective work card */
 .flex-item h3{
-  font-size: 2.0em;
+  font-size: 1.5em;
   color: var(--dark-gray);
 }
 

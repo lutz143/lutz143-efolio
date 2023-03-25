@@ -7,6 +7,7 @@ import TechBlog from './images/tech-blog.png'
 import NoteTaker from './images/NoteTaker.png'
 import PWA from './images/PWA.PNG'
 import GitHub from './images/GitHub.png'
+import GitHubWhite from './images/GitHubWhite.png'
 
 
 
@@ -25,7 +26,7 @@ function About(props) {
             <span>A RESTful API to Connect Musical Talent</span>
           </div>
           <a href="https://github.com/lutz143/virtuoso" target="_blank" rel="noopener noreferrer">
-            <img className="flex-item-img" src={GitHub} style={{ 'width':'10%', '--hover-opacity':1.0 }}/>
+            <img className="flex-item-img" src={GitHub} style={{ 'width':'12%', '--hover-opacity':1.0 }}/>
           </a>
         </a>
 
@@ -39,11 +40,12 @@ function About(props) {
 
         
         <a href="https://lutz143.github.io/youtube-clone/" target="_blank" rel="noopener noreferrer" className="flex-item youtubeClone" style={{ backgroundImage: `url(${YouTubeStyle})` }}>
-          <div>            
+          <div>
+          <h3>CSS</h3>          
             <span>Flexbox and Styling Practice</span>
           </div>
           <a href="https://github.com/lutz143/youtube-clone" target="_blank" rel="noopener noreferrer">
-            <img className="flex-item-img" src={GitHub} style={{ 'width':'10%', '--hover-opacity':1.0 }}/>
+            <img className="flex-item-img" src={GitHub} style={{ 'width':'12%', '--hover-opacity':1.0 }}/>
           </a>
         </a>
 
@@ -52,6 +54,9 @@ function About(props) {
             <h3>Tech BLog</h3>
             <span>Full Stack MVC App</span>
           </div>
+          <a href="https://github.com/lutz143/tech-blog-website" target="_blank" rel="noopener noreferrer">
+            <img className="flex-item-img" src={GitHub} style={{ 'width':'12%', '--hover-opacity':1.0 }}/>
+          </a>
         </a>
 
         <a href="https://note-taker-app-143.herokuapp.com/" target="_blank" rel="noopener noreferrer" className="flex-item noteTaker" style={{ backgroundImage: `url(${NoteTaker})` }}>
@@ -59,6 +64,9 @@ function About(props) {
             <h3>Note Taker App</h3>
             <span>Express.js to handle API routing</span>
           </div>
+          <a href="https://github.com/lutz143/note-taker-app" target="_blank" rel="noopener noreferrer">
+            <img className="flex-item-img" src={GitHub} style={{ 'width':'12%', '--hover-opacity':1.0 }}/>
+          </a>
         </a>
 
         <a href="https://text-editor-lutz143.herokuapp.com/" target="_blank" rel="noopener noreferrer" className="flex-item PWA" style={{ backgroundImage: `url(${PWA})` }}>
@@ -66,6 +74,9 @@ function About(props) {
             <h3>Text Editor</h3>
             <span>PWA & Caching</span>
           </div>
+          <a href="https://github.com/lutz143/progressive-test-editor" target="_blank" rel="noopener noreferrer">
+            <img className="flex-item-img" src={GitHubWhite} style={{ 'width':'12%', '--hover-opacity':1.0 }}/>
+          </a>
         </a>
 
       </div>
