@@ -5,16 +5,16 @@ function Header(props) {
   return (
     <header>
       <div className="left-section">
-        <h1>Josh Lutz</h1>
+        <a href="/" id="user-title"><h1>Josh Lutz</h1></a>
       </div>
   
       <div className="middle-section">
         <nav>
-          <a href="#about-me">About Me</a>
-          <a href="#work">Work</a>
-          <a href="#contact-me">Contact Me</a>      
-          <a href="./assets/docs/Josh Lutz 2023 Resume.pdf" download>Resum&#233;</a>
-        </nav>        
+          <a href="/">About Me</a>
+          <a href="/projects">Work</a>
+          <a href="/contact-me">Contact Me</a>      
+          <a href="/resume">Resum&#233;</a>
+        </nav>
       </div>
   
       <div className="right-section">

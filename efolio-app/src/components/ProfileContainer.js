@@ -2,7 +2,7 @@ import React from 'react';
 import Header from './Header';
 import Banner from './Banner';
 import MainContainer from './Main';
-import Footer from './Footer';
+import Footer2 from './Footer2';
 // import { useState, useEffect } from 'react';
 
 const ProfileContainer = () => {
@@ -14,7 +14,7 @@ const ProfileContainer = () => {
       <Header></Header>
       <Banner></Banner>
       <MainContainer></MainContainer>
-      <Footer></Footer>
+      <Footer2></Footer2>
     </main>
   );
 };

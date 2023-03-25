@@ -5,7 +5,7 @@ import GmailLogo from './images/Gmail.png'
 
 function Footer(props) {
   return (
-    <footer>
+    <footer className="footer2">
       <div>
       </div>
       <div className="footer-icon" >
