@@ -1,13 +1,18 @@
-import React from "react";
+import React, {useState} from 'react';
+import style from './style.js'
 import 'bootstrap/dist/css/bootstrap.css';
 import Virtuoso from './images/Virtuoso-Main-Page.png'
 import iDAD from './images/iDAD_Homepage.PNG'
 import YouTubeStyle from './images/youtube-logo-byjosh.jpg'
 import TechBlog from './images/tech-blog.png'
+import NoteTaker from './images/NoteTaker.png'
+import PWA from './images/PWA.PNG'
+import GitHub from './images/GitHub.png'
 
 
 
 function About(props) {
+  const [hover, setHover] = useState(false);
   return (
 
 
@@ -16,11 +21,14 @@ function About(props) {
       
       <div className="flex-container">
         
-        <a href="https://virtuoso-lutz143.herokuapp.com/" target="_blank" rel="noopener noreferrer" className="flex-item SPPECTR" style={{ backgroundImage: `url(${Virtuoso})`, backgroundSize: 'cover', backgroundPosition: 'center' }}>
+        <a href="https://virtuoso-lutz143.herokuapp.com/" target="_blank" rel="noopener noreferrer" className="flex-item Virtuoso" style={{ backgroundImage: `url(${Virtuoso})`, backgroundSize: 'cover', backgroundPosition: 'center' }}>
           <div>
             <h3>Virtuoso</h3>          
             <span>A RESTful API to Connect Musical Talent</span>
           </div>
+          <a href="https://github.com/lutz143/virtuoso" target="_blank" rel="noopener noreferrer">
+            <img onMouseEnter={()=>{ setHover(true);}} onMouseLeave={()=>{setHover(false);}} style={{...style.normal,...(hover ? style.hover : null)}}className="flex-item-img" src={GitHub} />
+          </a>
         </a>
 
         
@@ -42,6 +50,20 @@ function About(props) {
           <div>            
             <h3>Tech BLog</h3>
             <span>Full Stack MVC App</span>
+          </div>
+        </a>
+
+        <a href="https://note-taker-app-143.herokuapp.com/" target="_blank" rel="noopener noreferrer" className="flex-item noteTaker" style={{ backgroundImage: `url(${NoteTaker})` }}>
+          <div>            
+            <h3>Note Taker App</h3>
+            <span>Express.js to handle API routing</span>
+          </div>
+        </a>
+
+        <a href="https://text-editor-lutz143.herokuapp.com/" target="_blank" rel="noopener noreferrer" className="flex-item PWA" style={{ backgroundImage: `url(${PWA})` }}>
+          <div>            
+            <h3>Text Editor</h3>
+            <span>PWA & Caching</span>
           </div>
         </a>
 

@@ -263,19 +263,41 @@ nav a:hover{
   color: var(--dark-gray);
 }
 
+.flex-item-img:hover {
+  opacity: 1.0;
+}
+
 /* Portfolio styling */
 /* ===================================================================================================================================== */
 
 
 
 /* SPPECTR size, ensuring no repeat */
-.SPPECTR {
+.Virtuoso {
   background-repeat: no-repeat;
   background-size: 86%;
 }
 
 /* iDAD size, ensuring no repeat */
 .iDAD {
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+/* PWA size, ensuring no repeat */
+.PWA {
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+/* PWA size, ensuring no repeat */
+.noteTaker {
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+/* Tech Blog size, ensuring no repeat */
+.techBlog {
   background-repeat: no-repeat;
   background-size: 100%;
 }
