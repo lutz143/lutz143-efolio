@@ -1,19 +1,31 @@
 import React from "react";
 import ProfilePic from './images/Josh Lutz_DC.jpg'
 
-function Header(props) {
+function Header({ currentPage, handlePageChange }) {
   return (
     <header>
       <div className="left-section">
-        <a href="/" id="user-title"><h1>Josh Lutz</h1></a>
+        <a href="#aboutme" id="user-title">
+          <h1
+            onClick={() => handlePageChange('About')}>
+            Josh Lutz</h1>
+        </a>
       </div>
   
       <div className="middle-section">
         <nav>
-          <a href="/">About Me</a>
-          <a href="/projects">Work</a>
-          <a href="/contact-me">Contact Me</a>      
-          <a href="/resume">Resum&#233;</a>
+          <a href="#aboutme"
+            onClick={() => handlePageChange('About')}>
+            About Me</a>
+          <a href="#project"
+            onClick={() => handlePageChange('Project')}>
+            Work</a>
+          <a href="#contact"
+            onClick={() => handlePageChange('Contact')}>
+            Contact Me</a>      
+          <a href="#resume"
+            onClick={() => handlePageChange('Resume')}>
+            Resum&#233;</a>
         </nav>
       </div>
   
