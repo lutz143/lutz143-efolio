@@ -260,6 +260,7 @@ nav a:hover{
 /* style the flex item hover capability showing that it is more in focus */
 .flex-item:hover {
   background-color: #dfdfdf10;
+  color: var(--dark-gray);
 }
 
 /* Portfolio styling */

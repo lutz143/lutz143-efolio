@@ -16,7 +16,7 @@ function About(props) {
       
       <div className="flex-container">
         
-        <a href="https://team-6-virtuoso.herokuapp.com/" target="_blank" rel="noopener noreferrer" className="flex-item SPPECTR" style={{ backgroundImage: `url(${Virtuoso})`, backgroundSize: 'cover', backgroundPosition: 'center' }}>
+        <a href="https://virtuoso-lutz143.herokuapp.com/" target="_blank" rel="noopener noreferrer" className="flex-item SPPECTR" style={{ backgroundImage: `url(${Virtuoso})`, backgroundSize: 'cover', backgroundPosition: 'center' }}>
           <div>
             <h3>Virtuoso</h3>          
             <span>A RESTful API to Connect Musical Talent</span>
