@@ -1,5 +1,4 @@
 import React, {useState} from 'react';
-import style from './style.js'
 import 'bootstrap/dist/css/bootstrap.css';
 import Virtuoso from './images/Virtuoso-Main-Page.png'
 import iDAD from './images/iDAD_Homepage.PNG'
@@ -12,7 +11,6 @@ import GitHub from './images/GitHub.png'
 
 
 function About(props) {
-  const [hover, setHover] = useState(false);
   return (
 
 
@@ -27,7 +25,7 @@ function About(props) {
             <span>A RESTful API to Connect Musical Talent</span>
           </div>
           <a href="https://github.com/lutz143/virtuoso" target="_blank" rel="noopener noreferrer">
-            <img onMouseEnter={()=>{ setHover(true);}} onMouseLeave={()=>{setHover(false);}} style={{...style.normal,...(hover ? style.hover : null)}}className="flex-item-img" src={GitHub} />
+            <img className="flex-item-img" src={GitHub} style={{ 'width':'10%', '--hover-opacity':1.0 }}/>
           </a>
         </a>
 
@@ -44,6 +42,9 @@ function About(props) {
           <div>            
             <span>Flexbox and Styling Practice</span>
           </div>
+          <a href="https://github.com/lutz143/youtube-clone" target="_blank" rel="noopener noreferrer">
+            <img className="flex-item-img" src={GitHub} style={{ 'width':'10%', '--hover-opacity':1.0 }}/>
+          </a>
         </a>
 
         <a href="https://tech-blog-site-143.herokuapp.com/" target="_blank" rel="noopener noreferrer" className="flex-item techBlog" style={{ backgroundImage: `url(${TechBlog})` }}>
