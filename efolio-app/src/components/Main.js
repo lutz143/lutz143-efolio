@@ -1,6 +1,7 @@
 import React from 'react';
 import About from './AboutMe';
 import Resume from './Resume';
+import Project from './Project';
 // import { useState, useEffect } from 'react';
 
 const MainContainer = () => {
@@ -9,7 +10,7 @@ const MainContainer = () => {
 
   return (
     // <div className='main-section'><About></About></div>
-    <div><Resume></Resume></div>
+    <div><Project></Project></div>
   );
 };
 

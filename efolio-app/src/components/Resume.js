@@ -3,9 +3,6 @@ import ProfilePic from './images/Josh Lutz_DC.jpg'
 import DownloadButton from './images/DownloadButton.png'
 import ResumeDownload from './docs/Josh Lutz 2023 Resume.pdf'
 
-const frontEnd = ['HTML', 'CSS', 'ETC.']
-const backEnd = ['MySQL', 'SQL', 'NoSQL']
-
 
 function About(props) {
   return (

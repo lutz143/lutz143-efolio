@@ -207,15 +207,17 @@ nav a:hover{
 .flex-container{  
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-between;
+  padding-right: 18px;  
 }
 
 /* style each flex item, applying dark gray borders and a white shade prior to hover */
 .flex-item {
   min-height: 200px;
   max-height: 200px;
+  margin-bottom: 8px;
   color: var(--dark-gray);
-  border: 6px solid var(--dark-gray);
+  border: 3px solid var(--dark-gray);
   flex-basis: calc(50% - 1em);
   display: flex;
   align-items: flex-end;
@@ -228,11 +230,17 @@ nav a:hover{
   font-size: 0.8em;
 }
 
-/* establish first child as the main work cards so that it is larger than other work cards */
+/* establish first & fourth child as the main work cards so that it is larger than other work cards */
 .flex-item:first-child{
-  min-height: 400px;
+  min-height: 360px;
   flex-basis: 100%;
 }
+
+.flex-item:nth-child(4) {
+  min-height: 360px;
+  flex-basis: 100%;
+}
+
 
 /* style the div container where the text is found inside the respective work card */
 .flex-item div{
@@ -253,6 +261,31 @@ nav a:hover{
 .flex-item:hover {
   background-color: #dfdfdf10;
 }
+
+/* Portfolio styling */
+/* ===================================================================================================================================== */
+
+
+
+/* SPPECTR size, ensuring no repeat */
+.SPPECTR {
+  background-repeat: no-repeat;
+  background-size: 86%;
+}
+
+/* iDAD size, ensuring no repeat */
+.iDAD {
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+/* YouTube Clone size, ensuring no repeat */
+.youtubeClone { 
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 50%;
+}
+
 
 /* Resume styling */
 /* ===================================================================================================================================== */
