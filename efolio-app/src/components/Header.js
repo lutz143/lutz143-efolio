@@ -6,8 +6,7 @@ function Header({ currentPage, handlePageChange }) {
     <header>
       <div className="left-section">
         <a href="#aboutme" id="user-title">
-          <h1
-            onClick={() => handlePageChange('About')}>
+          <h1>
             Josh Lutz</h1>
         </a>
       </div>
@@ -31,7 +30,7 @@ function Header({ currentPage, handlePageChange }) {
   
       <div className="right-section">
         <a href="https://www.linkedin.com/in/joshlutz/" target="_blank" rel="noopener noreferrer">
-          <img className="current-user" src={ProfilePic} alt="User Image of the Portfolio"/>
+          <img className="current-user" src={ProfilePic} alt="User of the Portfolio"/>
         </a>      
       </div>
     </header>

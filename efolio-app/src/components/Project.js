@@ -1,7 +1,7 @@
-import React, {useState} from 'react';
+import React from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
 import Virtuoso from './images/Virtuoso-Main-Page.png'
-import iDAD from './images/iDAD_Homepage.PNG'
+import WeatherApp from './images/WeatherApp.png'
 import YouTubeStyle from './images/youtube-logo-byjosh.jpg'
 import TechBlog from './images/tech-blog.png'
 import NoteTaker from './images/NoteTaker.png'
@@ -26,18 +26,19 @@ function About(props) {
             <span>A RESTful API to Connect Musical Talent</span>
           </div>
           <a href="https://github.com/lutz143/virtuoso" target="_blank" rel="noopener noreferrer">
-            <img className="flex-item-img" src={GitHub} style={{ 'width':'12%', '--hover-opacity':1.0 }}/>
+            <img className="flex-item-img" src={GitHub} style={{ 'width':'12%', '--hover-opacity':1.0 }} alt="GitHub Logo"/>
           </a>
         </a>
 
-        
-        <a href="javascript:iDAD_alert();" className="flex-item iDAD" style={{ backgroundImage: `url(${iDAD})` }}>
+        <a href="https://lutz143.github.io/weather-dashboard/" target="_blank" rel="noopener noreferrer" className="flex-item weatherApp" style={{ backgroundImage: `url(${WeatherApp})` }}>
           <div>
-            <h3>iDAD</h3>
-            <span>Access-SQL Analytics Tool</span>
+          <h3>Weather App</h3>          
+            <span>Third Party API</span>
           </div>
+          <a href="https://github.com/lutz143/weather-dashboard" target="_blank" rel="noopener noreferrer">
+            <img className="flex-item-img" src={GitHub} style={{ 'width':'12%', '--hover-opacity':1.0 }} alt="GitHub Logo"/>
+          </a>
         </a>
-
         
         <a href="https://lutz143.github.io/youtube-clone/" target="_blank" rel="noopener noreferrer" className="flex-item youtubeClone" style={{ backgroundImage: `url(${YouTubeStyle})` }}>
           <div>
@@ -45,7 +46,7 @@ function About(props) {
             <span>Flexbox and Styling Practice</span>
           </div>
           <a href="https://github.com/lutz143/youtube-clone" target="_blank" rel="noopener noreferrer">
-            <img className="flex-item-img" src={GitHub} style={{ 'width':'12%', '--hover-opacity':1.0 }}/>
+            <img className="flex-item-img" src={GitHub} style={{ 'width':'12%', '--hover-opacity':1.0 }} alt="GitHub Logo"/>
           </a>
         </a>
 
@@ -55,7 +56,7 @@ function About(props) {
             <span>Full Stack MVC App</span>
           </div>
           <a href="https://github.com/lutz143/tech-blog-website" target="_blank" rel="noopener noreferrer">
-            <img className="flex-item-img" src={GitHub} style={{ 'width':'12%', '--hover-opacity':1.0 }}/>
+            <img className="flex-item-img" src={GitHub} style={{ 'width':'12%', '--hover-opacity':1.0 }} alt="GitHub Logo"/>
           </a>
         </a>
 
@@ -65,7 +66,7 @@ function About(props) {
             <span>Express.js to handle API routing</span>
           </div>
           <a href="https://github.com/lutz143/note-taker-app" target="_blank" rel="noopener noreferrer">
-            <img className="flex-item-img" src={GitHub} style={{ 'width':'12%', '--hover-opacity':1.0 }}/>
+            <img className="flex-item-img" src={GitHub} style={{ 'width':'12%', '--hover-opacity':1.0 }} alt="GitHub Logo"/>
           </a>
         </a>
 
@@ -75,7 +76,7 @@ function About(props) {
             <span>PWA & Caching</span>
           </div>
           <a href="https://github.com/lutz143/progressive-test-editor" target="_blank" rel="noopener noreferrer">
-            <img className="flex-item-img" src={GitHubWhite} style={{ 'width':'12%', '--hover-opacity':1.0 }}/>
+            <img className="flex-item-img" src={GitHubWhite} style={{ 'width':'12%', '--hover-opacity':1.0 }} alt="GitHub Logo"/>
           </a>
         </a>
 

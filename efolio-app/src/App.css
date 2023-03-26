@@ -314,6 +314,12 @@ nav a:hover{
   background-size: 100%;
 }
 
+/* Weather App size, ensuring no repeat */
+.weatherApp { 
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
 /* YouTube Clone size, ensuring no repeat */
 .youtubeClone { 
   background-repeat: no-repeat;
@@ -418,24 +424,9 @@ footer {
   border-top: solid var(--yellow);
   display: flex;
   justify-content: space-between;
-  align-content: center;
   align-items: center;
 }
 
-footer2 {
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  max-height: 8em;
-  min-height: 5.5em;
-  margin-top: 25px;
-  background-color: var(--dark-gray);
-  border-top: solid var(--yellow);
-  display: flex;
-  justify-content: space-between;
-  align-content: center;
-  align-items: center;
-}
 
 .footer-icon {
   display: flex;
@@ -498,7 +489,7 @@ footer2 {
 /* ===================================================================================================================================== */
 @media screen and (max-width: 970px) {
   #download {
-    justify-content: start;  
+    justify-content: start;
   }
 
   header {
@@ -512,7 +503,7 @@ footer2 {
   .left-section{
     display: flex;
     padding: 0;
-    text-align: center;
+    justify-content: center;
     width: 100%;
   }
 
@@ -553,6 +544,7 @@ footer2 {
   .main-section {
     margin-top: 0;
     padding-left: 3px;
+    padding-bottom: 5.5rem;
   }
 
   .top-banner {
