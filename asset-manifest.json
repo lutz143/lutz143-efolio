@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/lutz143-efolio/static/css/main.189a8290.css",
-    "main.js": "/lutz143-efolio/static/js/main.8a9c6f77.js",
+    "main.css": "/lutz143-efolio/static/css/main.0166436d.css",
+    "main.js": "/lutz143-efolio/static/js/main.ac340f8b.js",
     "static/js/787.06b5b714.chunk.js": "/lutz143-efolio/static/js/787.06b5b714.chunk.js",
     "static/media/Virtuoso-Main-Page.png": "/lutz143-efolio/static/media/Virtuoso-Main-Page.cf1581f0bd080b3bedcc.png",
     "static/media/Josh Lutz 2023 Resume.pdf": "/lutz143-efolio/static/media/Josh Lutz 2023 Resume.f6049fcf66da7102b355.pdf",
     "static/media/banner.jpg": "/lutz143-efolio/static/media/banner.70e308bf5ff826677397.jpg",
-    "static/media/iDAD_Homepage.PNG": "/lutz143-efolio/static/media/iDAD_Homepage.d53ba752d51512f9aae7.PNG",
     "static/media/Gmail.png": "/lutz143-efolio/static/media/Gmail.b6971a556f850fefc380.png",
+    "static/media/WeatherApp.png": "/lutz143-efolio/static/media/WeatherApp.aa0332952b0950d55652.png",
     "static/media/tech-blog.png": "/lutz143-efolio/static/media/tech-blog.30cb6eda2af09206c94e.png",
     "static/media/Josh Lutz_DC.jpg": "/lutz143-efolio/static/media/Josh Lutz_DC.a14cc15399168480ccd6.jpg",
     "static/media/youtube-logo-byjosh.jpg": "/lutz143-efolio/static/media/youtube-logo-byjosh.04a26d13d96ef62b7d01.jpg",
@@ -15,12 +15,12 @@
     "static/media/PWA.PNG": "/lutz143-efolio/static/media/PWA.f748426a5778ab293619.PNG",
     "static/media/NoteTaker.png": "/lutz143-efolio/static/media/NoteTaker.598ce0b7798b69a6767e.png",
     "index.html": "/lutz143-efolio/index.html",
-    "main.189a8290.css.map": "/lutz143-efolio/static/css/main.189a8290.css.map",
-    "main.8a9c6f77.js.map": "/lutz143-efolio/static/js/main.8a9c6f77.js.map",
+    "main.0166436d.css.map": "/lutz143-efolio/static/css/main.0166436d.css.map",
+    "main.ac340f8b.js.map": "/lutz143-efolio/static/js/main.ac340f8b.js.map",
     "787.06b5b714.chunk.js.map": "/lutz143-efolio/static/js/787.06b5b714.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.189a8290.css",
-    "static/js/main.8a9c6f77.js"
+    "static/css/main.0166436d.css",
+    "static/js/main.ac340f8b.js"
   ]
 }
