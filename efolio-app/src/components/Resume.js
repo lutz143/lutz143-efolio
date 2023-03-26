@@ -8,11 +8,11 @@ function About(props) {
   return (
     <div className="main-section" id="resume">
       <h2>Resum&#233;<br></br>
-        <img className="about-me-img" src={ProfilePic} alt="User Image of the Portfolio"/>
+        <img className="about-me-img" src={ProfilePic} alt="User Profile Pic of the Portfolio"/>
         <a href={ResumeDownload} download id="download-hyperlink">
           <div id="download">
             <div id="download-text">Download</div>  
-              <img className="download-button" src={DownloadButton}/>          
+              <img className="download-button" src={DownloadButton} alt="Download Button"/>          
           </div>
         </a>        
       </h2>

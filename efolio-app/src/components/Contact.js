@@ -1,108 +1,53 @@
 import React from 'react';
+import { Button, Form } from "react-bootstrap";
 
-function Footer(props) {
+function Contact() {
+
   return (
-    <section className="main-section" id="work">
-      <h2>Work</h2>
-      <div className="paralax-mf footer-paralax bg-image sect-mt4 route">
-        <div className="overlay-mf"></div>
-        <div className="container">
-          <div className="row">
-            <div className="col-sm-12">
-              <div className="contact-mf">
-                <div id="contact" className="box-shadow-full">
-                  <div className="row">
-                    <div className="col-md-6">
-                      <div className="title-box-2">
-                        <h5 className="title-left">Send A Message</h5>
-                      </div>
-                      <div>
-                        <form
-                          action="https://formspree.io/xdoeonlo"
-                          method="POST"
-                          className="contactForm"
-                        >
-                          <div id="sendmessage">
-                            Your message has been sent. Thank you!
-                          </div>
-                          <div id="errormessage"></div>
-                          <div className="row">
-                            <div className="col-md-12 mb-3">
-                              <div className="form-group">
-                                <input
-                                  type="text"
-                                  name="name"
-                                  className="form-control"
-                                  id="name"
-                                  placeholder="Your Name"
-                                  data-rule="minlen:4"
-                                  data-msg="Please enter at least 4 chars"
-                                />
-                                <div className="validation"></div>
-                              </div>
-                            </div>
-                            <div className="col-md-12 mb-3">
-                              <div className="form-group">
-                                <input
-                                  type="email"
-                                  className="form-control"
-                                  name="email"
-                                  id="email"
-                                  placeholder="Your Email"
-                                  data-rule="email"
-                                  data-msg="Please enter a valid email"
-                                />
-                                <div className="validation"></div>
-                              </div>
-                            </div>
-                            <div className="col-md-12 mb-3">
-                              <div className="form-group">
-                                <input
-                                  type="text"
-                                  className="form-control"
-                                  name="subject"
-                                  id="subject"
-                                  placeholder="Subject"
-                                  data-rule="minlen:4"
-                                  data-msg="Please enter at least 8 chars of subject"
-                                />
-                                <div className="validation"></div>
-                              </div>
-                            </div>
-                            <div className="col-md-12 mb-3">
-                              <div className="form-group">
-                                <textarea
-                                  className="form-control"
-                                  name="message"
-                                  rows="5"
-                                  data-rule="required"
-                                  data-msg="Please write something for us"
-                                  placeholder="Message"
-                                ></textarea>
-                                <div className="validation"></div>
-                              </div>
-                            </div>
-                            <div className="col-md-12">
-                              <button
-                                type="submit"
-                                className="button button-a button-big button-rouded"
-                              >
-                                Send Message
-                              </button>
-                            </div>
-                          </div>
-                        </form>
-                      </div>                      
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+    <div className="main-section" id="resume">
+      <h2>Contact Me<br></br></h2>
+      <div>
+
+        <Form>
+          <Form.Group className="mx-auto mb-3 form-group" controlId="name">
+            <Form.Label>Name</Form.Label>
+            <Form.Control required type="text" placeholder="Your name" />
+            <Form.Control.Feedback type="invalid">
+              <h5>Name must be at least one character.</h5>
+            </Form.Control.Feedback>
+          </Form.Group>
+          <Form.Group className="mx-auto mb-3 form-group" controlId="email">
+            <Form.Label>Email address</Form.Label>
+            <Form.Control
+              required
+              pattern="^([a-zA-Z0-9_\-\.]+)@([a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,5})$"
+              placeholder="youremail@domain.com"
+            />
+            <Form.Control.Feedback type="invalid">
+              <h5>Please enter a valid email.</h5>
+            </Form.Control.Feedback>
+          </Form.Group>
+          <Form.Group className="mx-auto mb-3 form-group" controlId="message">
+            <Form.Label>Message</Form.Label>
+            <Form.Control required as="textarea" placeholder="Your message..." />
+            <Form.Control.Feedback type="invalid">
+              <h5>Please provide a valid message.</h5>
+            </Form.Control.Feedback>
+          </Form.Group>   
+          <Form.Group className="mx-auto text-center form-group">
+            <Button
+              size="lg"          
+              type="submit"          
+              className="my-3"
+            >
+              Submit
+            </Button>
+          </Form.Group>   
+        </Form>
+
       </div>
-    </section>
+    </div>
   );
 }
 
-export default Footer;
+export default Contact;
