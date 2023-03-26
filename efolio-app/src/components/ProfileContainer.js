@@ -30,10 +30,9 @@ export default function ProfileContainer() {
 
   return (
     <div>
-      <Header />
-      <Banner />
       {/* We are passing the currentPage from state and the function to update it */}      
       <Header currentPage={currentPage} handlePageChange={handlePageChange} />
+      <Banner />
       {/* Here we are calling the renderPage method which will return a component  */}
       {renderPage()}
       <Footer />
