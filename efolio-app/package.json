@@ -2,7 +2,7 @@
   "name": "efolio-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://lutz143.github.io/efolio-app",
+  "homepage": "https://lutz143.github.io/lutz143-efolio",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
