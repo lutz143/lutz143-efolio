@@ -4,7 +4,7 @@
 </h1>
 
 <div align="center">
-  <img alt="Demo Image" src="./src/components/images/screenImg.png" style="width:50%">
+  <img alt="Demo Image" src="./efolio-app/src/components/images/screenImg.png" style="width:50%">
 </div>
 
 ---
@@ -47,7 +47,7 @@ This portfolio is to introduce and share recent projects I've worked on in my jo
 
 ## Demo Video
 <div align="center">
-  <img alt="Demo GIF" src="./src/components/images/demoVid.gif" style="width:50%">
+  <img alt="Demo GIF" src="./efolio-app/src/components/images/demoVid.gif" style="width:50%">
 </div>
 
 ---
