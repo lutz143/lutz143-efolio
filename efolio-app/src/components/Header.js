@@ -5,7 +5,7 @@ function Header({ currentPage, handlePageChange }) {
   return (
     <header>
       <div className="left-section">
-        <a href="/" id="user-title">
+        <a href="https://lutz143.github.io/lutz143-efolio/" id="user-title">
           <h1>
             Josh Lutz</h1>
         </a>
