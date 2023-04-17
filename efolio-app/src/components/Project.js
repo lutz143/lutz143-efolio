@@ -1,6 +1,7 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
 import Virtuoso from './images/Virtuoso-Main-Page.png'
+import SteamUp from './images/Steam-Up.png'
 import WeatherApp from './images/WeatherApp.png'
 import YouTubeStyle from './images/youtube-logo-byjosh.jpg'
 import TechBlog from './images/tech-blog.png'
@@ -20,6 +21,16 @@ function About(props) {
       
       <div className="flex-container">
         
+        <a href="https://t4-steam-up.herokuapp.com/" target="_blank" rel="noopener noreferrer" className="flex-item Virtuoso" style={{ backgroundImage: `url(${SteamUp})`, backgroundSize: 'cover', backgroundPosition: 'center' }}>
+          <div>
+            <h3>Steam Up</h3>      
+            <span>A Full-Stack React Video Game API</span>
+          </div>
+          <a href="https://github.com/lutz143/steam-up" target="_blank" rel="noopener noreferrer">
+            <img className="flex-item-img" src={GitHub} style={{ 'width':'12%', '--hover-opacity':1.0 }} alt="GitHub Logo"/>
+          </a>
+        </a>
+
         <a href="https://virtuoso-lutz143.herokuapp.com/" target="_blank" rel="noopener noreferrer" className="flex-item Virtuoso" style={{ backgroundImage: `url(${Virtuoso})`, backgroundSize: 'cover', backgroundPosition: 'center' }}>
           <div>
             <h3>Virtuoso</h3>          
