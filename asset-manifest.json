@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/lutz143-efolio/static/css/main.0166436d.css",
-    "main.js": "/lutz143-efolio/static/js/main.bd60cd7e.js",
+    "main.js": "/lutz143-efolio/static/js/main.4aa840a9.js",
     "static/js/787.06b5b714.chunk.js": "/lutz143-efolio/static/js/787.06b5b714.chunk.js",
+    "static/media/Steam-Up.png": "/lutz143-efolio/static/media/Steam-Up.70e573c7105407a0e8ab.png",
     "static/media/Virtuoso-Main-Page.png": "/lutz143-efolio/static/media/Virtuoso-Main-Page.cf1581f0bd080b3bedcc.png",
     "static/media/Josh Lutz 2023 Resume.pdf": "/lutz143-efolio/static/media/Josh Lutz 2023 Resume.bf1fc969ef8f16355f49.pdf",
     "static/media/banner.jpg": "/lutz143-efolio/static/media/banner.70e308bf5ff826677397.jpg",
@@ -16,11 +17,11 @@
     "static/media/NoteTaker.png": "/lutz143-efolio/static/media/NoteTaker.598ce0b7798b69a6767e.png",
     "index.html": "/lutz143-efolio/index.html",
     "main.0166436d.css.map": "/lutz143-efolio/static/css/main.0166436d.css.map",
-    "main.bd60cd7e.js.map": "/lutz143-efolio/static/js/main.bd60cd7e.js.map",
+    "main.4aa840a9.js.map": "/lutz143-efolio/static/js/main.4aa840a9.js.map",
     "787.06b5b714.chunk.js.map": "/lutz143-efolio/static/js/787.06b5b714.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0166436d.css",
-    "static/js/main.bd60cd7e.js"
+    "static/js/main.4aa840a9.js"
   ]
 }
